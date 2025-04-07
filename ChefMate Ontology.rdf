@@ -1,0 +1,1963 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33/"
+     xml:base="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#hasExpirationDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#hasExpirationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#isPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Command"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Action_Confirmation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Action_Confirmation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Adjust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Adjust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Time_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Adjust_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Adjust_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Affirm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Affirm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirmation_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Allergy_Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Allergy_Profile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Appliance_Recommendation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Appliance_Recommendation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recommend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Aromatic_Herb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Aromatic_Herb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Avocado_Egg_Salad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Avocado_Egg_Salad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Diet_Recipe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Egg_Spinach_Muffins"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Avocado_Toast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Avocado_Toast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Quick_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Bake -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Bake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stove_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking_Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking_Recipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Beef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Beef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Red_Meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Beetroot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Beetroot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Root_Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Berry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Berry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Blueberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Blueberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Berry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Boil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Boil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Wok_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Boiler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Boiler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Appliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Broccoli -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Broccoli">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cruciferous_Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Brussels_Sprouts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Brussels_Sprouts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cruciferous_Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Carrot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Carrot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Root_Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cauliflower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cauliflower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cruciferous_Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Check_Expiry_Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Check_Expiry_Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry_Intent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Freshness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cheesecake -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cheesecake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chefs_Knife -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chefs_Knife">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cutting_Chopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chicken_Caesar_Wrap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chicken_Caesar_Wrap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Quick_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chickpea_Curry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chickpea_Curry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chili_Pepper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chili_Pepper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy_Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chinese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chinese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cuisine_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chocolate_Cake -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chocolate_Cake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Choice_Confirmation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Choice_Confirmation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cilantro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cilantro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Flavoring_Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Citrus_Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Citrus_Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Clarify -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Clarify">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirmation_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Command -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Command">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Query"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confidence_Level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confidence_Level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Identification_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Query"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirmation_Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirmation_Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirmation_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirmation_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Command"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Heating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Heating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Preparation_Instructions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Preparation_Instructions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Cooking_Instruction_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Technique_Recommendation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Technique_Recommendation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recommend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Technique_Step_By_Step -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Technique_Step_By_Step">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Cooking_Instruction_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Time_Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Time_Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Time_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Time_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Croissant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Croissant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cruciferous_Vegetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cruciferous_Vegetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cuisine_Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cuisine_Recipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cups -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cups">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Measuring_Portioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cutting_Board -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cutting_Board">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cutting_Chopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cutting_Chopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cutting_Chopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Dairy_Free -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Dairy_Free">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meal_Preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Dessert_Plate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Dessert_Plate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Serving_Plating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Diet_Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Diet_Recipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Dietary_Recommendation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Dietary_Recommendation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recommend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Egg_Spinach_Muffins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Egg_Spinach_Muffins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Diet_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Estimate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Estimate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Time_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Favorite_Cuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Favorite_Cuisine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Find_Recipe_By_Cuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Find_Recipe_By_Cuisine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Find_Recipe_By_Dietary_Restriction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Find_Recipe_By_Dietary_Restriction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Find_Recipe_By_Ingredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Find_Recipe_By_Ingredient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Fish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Fish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#White_Meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Flavoring_Herb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Flavoring_Herb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#French -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#French">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cuisine_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Fry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Fry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Wok_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ginger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ginger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy_Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Gluten_Free -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Gluten_Free">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meal_Preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Grapefruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Grapefruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Citrus_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Grill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Grill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Oven_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Herb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Herb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Humidity_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Humidity_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Microwave"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Oven"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pot"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Refrigerator"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stove"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tray"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Image_Ingredient_Request -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Image_Ingredient_Request">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Input_Request"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Verfication_Request"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Indian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Indian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cuisine_Recipe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Favorite_Cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Information_Confirmation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Information_Confirmation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Allergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Allergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Allergy_Profile"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Intolerance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Confirmation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Confirmation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Verfication_Request"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry_Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry_Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Freshness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Freshness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Identification_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Identification_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Image_Ingredient_Request"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Identified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Identified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Identification_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Intolerance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Intolerance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Allergy_Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Recommendation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Recommendation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recommend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Verfication_Request -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Verfication_Request">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Input_Request"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Italian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Italian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cuisine_Recipe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Favorite_Cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Jug -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Jug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Measuring_Portioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Leafy_Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance_Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance_Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Utensil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Utensil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lamb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lamb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Red_Meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Leafy_Vegetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Leafy_Vegetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lentil_Soup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lentil_Soup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lettuce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lettuce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Leafy_Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Citrus_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Low-Sodium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Low-Sodium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Taste_Preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mango -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mango">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tropical_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meal_Preference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meal_Preference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Measuring_Portioning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Measuring_Portioning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mexican -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mexican">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cuisine_Recipe"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Favorite_Cuisine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Microwave -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Microwave">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Appliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mild -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mild">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Taste_Preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Aromatic_Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Confirmation_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Appliance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Appliance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Utensil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Utensil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Citrus_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Oven -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Oven">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Appliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Oven_Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Oven_Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Papaya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Papaya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tropical_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Peanut_Butter_Banana_Smoothie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Peanut_Butter_Banana_Smoothie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Quick_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Perisable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Perisable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pineapple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pineapple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tropical_Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Red_Meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Potato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Potato">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Root_Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Poultry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Poultry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#White_Meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Preset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Preset">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Time_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Quick_Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Quick_Recipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Raspberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Raspberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Berry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Adjustment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Adjustment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Cooking_Instruction_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Mild -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Mild">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Smell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Moderate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Moderate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Smell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Recommendation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Recommendation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recommend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Smell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Smell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Preference_Recipe"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Taste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Spicy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Spicy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Taste"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Strong -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Strong">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Smell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Suggestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Suggestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Taste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Taste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Preference_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recommend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recommend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Query"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Red_Meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Red_Meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meat"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#White_Meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Refrigerator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Refrigerator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Appliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Roasted_Garlic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Roasted_Garlic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Strong"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Rolling_Pin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Rolling_Pin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Root_Vegetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Root_Vegetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Rosemary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Rosemary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Aromatic_Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Salad_Plate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Salad_Plate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Serving_Plating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Sautée_Vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Sautée_Vegetables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Moderate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Save_Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Save_Recipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Serving_Plating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Serving_Plating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Set_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Set_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Appliance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Appliance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Utensil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Utensil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smell_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smell_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Microwave"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Oven"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pot"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Refrigerator"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stove"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tray"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Sorrel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Sorrel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Flavoring_Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Soup_Bowl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Soup_Bowl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Serving_Plating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Taste_Preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy_Chickpea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy_Chickpea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Spicy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy_Herb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy_Herb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spinach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spinach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Leafy_Vegetable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spoons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spoons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Measuring_Portioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Start_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Start_Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Action"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stop_Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Steam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Steam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Wok_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Cooking_Instruction_Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Cooking_Instruction_Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Cooking_Instruction_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Cooking_Instruction_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Instruction_For_Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Instruction_For_Recipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Cooking_Instruction_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stop_Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stop_Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Storage_Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Storage_Condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stove -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stove">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Appliance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stove_Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stove_Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Strawberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Strawberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Berry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stream_Rice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stream_Rice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Mild"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tarragon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tarragon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Flavoring_Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Taste_Preference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Taste_Preference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Taste_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Taste_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pot"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tray"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Temperature_Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Temperature_Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Microwave"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Oven"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pan"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pot"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Refrigerator"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Stove"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tray"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Thyme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Thyme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Aromatic_Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Utensil"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tropical_Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tropical_Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Fruit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Input_Request -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Input_Request"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Preference_Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Preference_Recipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Query -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Query"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Recipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Tofu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Tofu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetable_Peeler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetable_Peeler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cutting_Chopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetarian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetarian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meal_Preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Wasabi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Wasabi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy_Herb"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#White_Meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#White_Meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Wok -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Wok">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Heating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Wok_Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Wok_Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance_Intent"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Action_Confirmation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Choice_Confirmation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Information_Confirmation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Affirm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Clarify"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Negative"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Allergy_Profile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Favorite_Cuisine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Meal_Preference"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Taste_Preference"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Appliance_Recommendation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Technique_Recommendation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Dietary_Recommendation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Recommendation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Recommendation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Aromatic_Herb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Flavoring_Herb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy_Herb"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Avocado_Toast"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chicken_Caesar_Wrap"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Peanut_Butter_Banana_Smoothie"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Bake"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Grill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Steam"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Heating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cutting_Chopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Measuring_Portioning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Non-Smart_Kitchen_Utensil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Serving_Plating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smart_Kitchen_Utensil"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking_Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cuisine_Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Diet_Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Quick_Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Preference_Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Recipe"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Baking_Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Diet_Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Quick_Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Preference_Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Recipe"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Beetroot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Carrot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Potato"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Berry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Citrus_Fruit"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tropical_Fruit"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cheesecake"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chocolate_Cake"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Croissant"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chefs_Knife"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cutting_Board"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetable_Peeler"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chickpea_Curry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lentil_Soup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegan_Tofu"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Chinese"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#French"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Indian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Italian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mexican"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cilantro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Sorrel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tarragon"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Preparation_Instructions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cooking_Technique_Step_By_Step"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Adjustment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Step_By_Step_Instruction_For_Recipe"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cruciferous_Vegetable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Leafy_Vegetable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Root_Vegetable"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Cups"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Jug"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spoons"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Dairy_Free"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Gluten_Free"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Vegetarian"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Date"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Perisable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Storage_Condition"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Dessert_Plate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Salad_Plate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Soup_Bowl"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Find_Recipe_By_Cuisine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Find_Recipe_By_Dietary_Restriction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Find_Recipe_By_Ingredient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Suggestion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Save_Recipe"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Humidity_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smell_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Taste_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Temperature_Sensor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Humidity_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Smell_Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Temperature_Sensor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Indian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Italian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mexican"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Utensil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Input_Request"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Query"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient_Expiry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Utensil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Input_Request"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Query"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Utensil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Input_Request"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Query"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Ingredient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Intent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Appliance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kitchen_Utensil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Response"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Profile"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#User_Query"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Kale"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Lettuce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spinach"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Low-Sodium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Mild"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Spicy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pan"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Pot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Tray"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Mild"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Moderate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/lamkajo/ontologies/2025/1/untitled-ontology-33#Recipe_Strong"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

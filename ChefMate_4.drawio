@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1c1d494c118603dd-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;ChefMate&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;startSize=40;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+          <mxGeometry x="130" y="180" width="640" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="1c1d494c118603dd-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ingredient expiration dates tracking before dish selection&lt;/font&gt;" style="swimlane;html=1;startSize=30;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1c1d494c118603dd-1" vertex="1">
+          <mxGeometry y="40" width="640" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1c1d494c118603dd-4" source="G6ERgnJ3noraj0WCy2LJ-43" target="G6ERgnJ3noraj0WCy2LJ-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1c1d494c118603dd-4" source="G6ERgnJ3noraj0WCy2LJ-45" target="G6ERgnJ3noraj0WCy2LJ-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1c1d494c118603dd-4" source="G6ERgnJ3noraj0WCy2LJ-45" target="G6ERgnJ3noraj0WCy2LJ-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310.00000000000045" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="225" />
+              <mxPoint x="310" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1c1d494c118603dd-4" source="G6ERgnJ3noraj0WCy2LJ-48" target="G6ERgnJ3noraj0WCy2LJ-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1c1d494c118603dd-4" source="G6ERgnJ3noraj0WCy2LJ-54" target="G6ERgnJ3noraj0WCy2LJ-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-43" value="ChefMate prompts the user for expiration" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="95" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-45" value="Ingredient left?" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="80" y="180" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-48" value="Proceeds to search for recipes" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="95" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ngrIAmMf4wpJAqi4Rahr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1c1d494c118603dd-4" source="G6ERgnJ3noraj0WCy2LJ-51" target="G6ERgnJ3noraj0WCy2LJ-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="355" />
+              <mxPoint x="30" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-51" value="Confirm expiration date" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="95" y="325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-53" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="155" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngrIAmMf4wpJAqi4Rahr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1c1d494c118603dd-4" source="G6ERgnJ3noraj0WCy2LJ-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-54" value="Proceeds to search &lt;br&gt;for recipes?" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="80" y="440" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-62" value="Spicy Chickpea Stir-Fry with Noodles" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="480" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6ERgnJ3noraj0WCy2LJ-60" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="310" y="288" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JVq306A_YzXoWOVUy9Fq-35" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1c1d494c118603dd-4" vertex="1">
+          <mxGeometry x="155" y="535" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngrIAmMf4wpJAqi4Rahr-3" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1c1d494c118603dd-4">
+          <mxGeometry x="30" y="460" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngrIAmMf4wpJAqi4Rahr-4" value="Scenario 1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1c1d494c118603dd-4">
+          <mxGeometry x="270" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

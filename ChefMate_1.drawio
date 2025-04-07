@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="Mc7CGku4qHrhw3GEl2LC">
+    <mxGraphModel dx="1967" dy="1712" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N-MniE7iCQIajrUWTpiu-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-665" y="-143" width="435" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N-MniE7iCQIajrUWTpiu-1" target="N-MniE7iCQIajrUWTpiu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N-MniE7iCQIajrUWTpiu-1" target="N-MniE7iCQIajrUWTpiu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-1" value="WiFi / Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="154" y="-47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N-MniE7iCQIajrUWTpiu-2" target="N-MniE7iCQIajrUWTpiu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-44" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N-MniE7iCQIajrUWTpiu-2" target="N-MniE7iCQIajrUWTpiu-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-2" value="Kitchen Appliances and Utensils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="-47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N-MniE7iCQIajrUWTpiu-4" target="N-MniE7iCQIajrUWTpiu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N-MniE7iCQIajrUWTpiu-4" target="N-MniE7iCQIajrUWTpiu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N-MniE7iCQIajrUWTpiu-4" target="N-MniE7iCQIajrUWTpiu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="N-MniE7iCQIajrUWTpiu-4" target="N-MniE7iCQIajrUWTpiu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-4" value="ChefMate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="-47" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-10" value="Screen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="-177" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-11" value="Speakers" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="-62" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-12" value="Mic" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="57" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-18" value="Integrated IoT enabled sensors" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-662" y="-129" width="118" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-23" value="Oven" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-647" y="-93" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-24" value="Stove" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-514" y="-93" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-25" value="Refrigerator" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-514" y="-7" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-26" value="Microwave" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-379" y="-7" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-27" value="Pans/Pots" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-647" y="-7" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-242.5" y="146" width="435" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-MniE7iCQIajrUWTpiu-22" target="N-MniE7iCQIajrUWTpiu-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="21" as="sourcePoint" />
+            <mxPoint x="-140" y="-29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-37" value="Bowls" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-212" y="181" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-38" value="Cups" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="181" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-39" value="Plates" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-212" y="293" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-40" value="Knifes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="293" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-41" value="Scale" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="181" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-42" value="....." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="64" y="293" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-MniE7iCQIajrUWTpiu-43" value="Trays" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-379" y="-99" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
